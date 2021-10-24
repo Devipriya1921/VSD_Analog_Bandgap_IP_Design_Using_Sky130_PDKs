@@ -17,7 +17,7 @@
 - [Final BGR](#Final-BGR)
 - [Tools Used for Analog Design Flow](#Tools-Used-for-Analog-Design-Flow)
 - [Schematic designs](#Schematic-designs)
-- [ Pre-Layout Simulations](# Pre-Layout-Simulations)
+- [Pre-Layout Simulations](#Pre-Layout-Simulations)
 - [Layout](#Layout)
 - [References](#References)
 - [Acknowledgement](#acknowledgement)
