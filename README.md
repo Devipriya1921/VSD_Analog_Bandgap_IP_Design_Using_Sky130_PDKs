@@ -3,12 +3,25 @@
 ![image](https://user-images.githubusercontent.com/80625515/138239041-24971c6d-a864-47be-9bf5-1d2d2a1e4b9c.png)
 
 ## Table of Contents 
-1. [Workshop Contents](#workshop-contents)
-2. [Introduction](#introduction)
-
-
-
-
+- [Workshop Contents](#workshop-contents)
+- [Introduction](#introduction)
+- [Types of BGR](#Types-of-BGR)
+- [Self-Biased Current Mirror Based BGR](#Self-Biased-Current-Mirror-Based-BGR)
+- [CTAT Voltage Generation Circuit](#CTAT-voltage-generation-circuit)
+- [PTAT Voltage Generation Circuit](#PTAT-voltage-generation-circuit)
+- [Design of Resistance R1](#Design-of-Resistance-R1)
+- [Self-bias Current Mirror](#Self-bias-Current-Mirror)
+- [Design of R2 Resistance](#Design-of-R2-Resistance)
+- [Start-up Circuit](#Start-up-Circuit)
+- [Bandgap Reference Circuit](#Bandgap-Reference-Circuit)
+- [Final BGR](#Final-BGR)
+- [Tools Used for Analog Design Flow](#Tools-Used-for-Analog-Design-Flow)
+- [Schematic designs](#Schematic-designs)
+- [ Pre-Layout Simulations](# Pre-Layout-Simulations)
+- [Layout](#Layout)
+- [References](#References)
+- [Acknowledgement](#acknowledgement)
+- [Author](#author)
 
 
 
@@ -89,17 +102,17 @@ It has the following components :
 - Reference branch circuit
 - Start-up circuit
 
-### CTAT voltage generation
+## CTAT Voltage Generation Circuit
 
 ![CTAT](https://user-images.githubusercontent.com/83152452/138583276-d370890a-050b-4f6b-9a6a-068b26eb5e76.png)
 
 
-### PTAT voltage generation circuit
+## PTAT Voltage Generation Circuit
 
 ![PTAT](https://user-images.githubusercontent.com/83152452/138583280-a60acb62-a65c-4010-9a5f-4de1e750880b.png)
 
 
-### Design of Resistance R1
+## Design of Resistance R1
 
 - Resistance value can be calculated by the formula R1=VT ln(N)/I
 - For 10uA current and N=8, R1=5.4k ohms
@@ -126,7 +139,7 @@ It has the following components :
 ![refbranch1](https://user-images.githubusercontent.com/83152452/138583588-b5ff5823-cbc8-4399-b5de-34cdd515dab6.png)
 
 
-### Design of R2 Resistance 
+## Design of R2 Resistance 
 
 - Tempco. of Vref should be zero
 - As all the values known, alpha can be calculated easily.
@@ -150,7 +163,7 @@ It has the following components :
 
 ![fullbgr](https://user-images.githubusercontent.com/83152452/138583632-49012b03-897c-43fa-a494-ac3334915ca6.png)
 
-### Final BGR
+## Final BGR
 
 ![finalbgr](https://user-images.githubusercontent.com/83152452/138583634-2e4c74fc-c8a3-441b-b328-b2c09f964d2f.png)
 
@@ -163,7 +176,7 @@ It has the following components :
 
 ![tools used](https://user-images.githubusercontent.com/83152452/138583687-e1e8b39a-0853-4c35-a148-bee1ed3f7689.png)
 
-## Schematic design
+## Schematic designs
 
 ### CTAT Voltage Generation Circuit
 
