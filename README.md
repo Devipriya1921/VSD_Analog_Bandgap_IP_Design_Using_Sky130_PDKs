@@ -1,4 +1,4 @@
-# VSD_Analog_Bandgap_IP_Design_Using_Sky130_PDKs
+# Analog Bandgap IP Design Using Sky130 PDKs
 
 ![image](https://user-images.githubusercontent.com/80625515/138239041-24971c6d-a864-47be-9bf5-1d2d2a1e4b9c.png)
 
